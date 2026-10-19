@@ -1,10 +1,12 @@
-sentence-transformers == 2.2.2
-langchain
-flask
-pypdf
+Flask
+gunicorn
 python-dotenv
-pinecone[grpc]
-langchain-pinecone
-langchain_community
-langchain_openai
-langchain_experimental
+langchain==0.3.27
+langchain-core>=0.3.78,<1.0.0
+langchain-community==0.3.31
+langchain-openai==0.3.35
+langchain-pinecone>=0.2.11,<0.3.0
+langchain-huggingface==0.1.2
+sentence-transformers==3.4.1
+pinecone
+pypdf
